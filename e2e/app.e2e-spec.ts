@@ -1,10 +1,10 @@
-import { TestngPage } from './app.po';
+import { MIDIatorPage } from './app.po';
 
-describe('testng App', function() {
-  let page: TestngPage;
+describe('MIDIator App', function() {
+  let page: MIDIatorPage;
 
   beforeEach(() => {
-    page = new TestngPage();
+    page = new MIDIatorPage();
   });
 
   it('should display message saying app works', () => {

@@ -1,7 +1,7 @@
 {
   "project": {
     "version": "1.0.0-beta.15",
-    "name": "testng"
+    "name": "MIDIator"
   },
   "apps": [
     {
@@ -15,6 +15,7 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
+        "scss.scss",
         "styles.css"
       ],
       "scripts": [],
@@ -40,5 +41,10 @@
   "defaults": {
     "styleExt": "css",
     "prefixInterfaces": false
-  }
+  },
+  "sassCompiler": {
+      "includePaths": [
+        "node_modules/angular2-mdl/src/scss-mdl"
+      ]
+    }
 }

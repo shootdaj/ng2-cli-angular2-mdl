@@ -1,3 +1,80 @@
-<h1>
-  {{title}}
-</h1>
+<mdl-layout mdl-layout-fixed-header mdl-layout-header-seamed>
+  <mdl-layout-header>
+    <mdl-layout-header-row>
+      <mdl-layout-title>MIDIator</mdl-layout-title>
+      <mdl-layout-spacer></mdl-layout-spacer>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link">Link</a>
+      </nav>
+    </mdl-layout-header-row>
+  </mdl-layout-header>
+  <!--<mdl-layout-drawer>
+        <mdl-layout-title>Input Devices</mdl-layout-title>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link">Link</a>
+        </nav>
+    </mdl-layout-drawer>-->
+  <mdl-layout-content class="demo-content">
+    <mdl-card mdl-shadow="2" class="dark-card">
+      <mdl-card-title>
+        <h2 mdl-card-title-text>Input Devices</h2>
+      </mdl-card-title>
+      <mdl-card-supporting-text>
+        Yo these be the input devices mothafucka!Yo these be the input devices mothafucka!Yo these be the input devices mothafucka!Yo these be the input devices mothafucka!
+      </mdl-card-supporting-text>
+      <mdl-card-actions mdl-card-border>
+        <button mdl-button mdl-colored mdl-ripple>Add new device</button>
+      </mdl-card-actions>
+      <mdl-card-menu>
+        <button mdl-button mdl-button-type="icon" mdl-ripple>
+          <mdl-icon>android</mdl-icon>          
+        </button>
+        <button mdl-button mdl-button-type="icon" mdl-ripple>
+          <mdl-icon>grade</mdl-icon>          
+        </button>
+        <button mdl-button mdl-button-type="icon" mdl-ripple>
+          <mdl-icon>favorite-border</mdl-icon>          
+        </button>          
+      </mdl-card-menu>
+    </mdl-card>
+
+    <!--<p>
+      <button mdl-button mdl-button-type="fab" mdl-colored="primary" mdl-ripple>
+        <mdl-icon>add</mdl-icon>
+        </button>
+    </p>
+
+    <p>
+      <button mdl-button mdl-button-type="raised" mdl-colored="accent" mdl-ripple>
+        Button
+        </button>
+    </p>
+
+    <p>
+      <mdl-icon mdl-badge="1" mdl-badge-overlap>account_box</mdl-icon>
+    </p>
+
+    <p>
+      <mdl-spinner single-color active></mdl-spinner>
+    </p>
+
+    <p>
+      <mdl-textfield type="text" label="Text..." [(ngModel)]="text3" floating-label></mdl-textfield>
+    </p>
+
+    <p>
+      <mdl-checkbox [mdl-ripple]="true" [(ngModel)]="checkbox1"> Checkbox </mdl-checkbox>
+    </p>
+
+    <p>
+      <mdl-radio name="group1" value="1" [(ngModel)]="radioOption" mdl-ripple>Value 1</mdl-radio>
+      <mdl-radio name="group1" value="2" [(ngModel)]="radioOption" mdl-ripple>Value 2</mdl-radio>
+    </p>
+
+    <p>
+      <mdl-switch [(ngModel)]="checkbox1" mdl-ripple>Option 1</mdl-switch>
+    </p>-->
+
+  </mdl-layout-content>
+</mdl-layout>

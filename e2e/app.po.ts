@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor/globals';
 
-export class TestngPage {
+export class MIDIatorPage {
   navigateTo() {
     return browser.get('/');
   }

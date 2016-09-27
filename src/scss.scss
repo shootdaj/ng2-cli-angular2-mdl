@@ -1,0 +1,9 @@
+@import "../node_modules/angular2-mdl/src/scss-mdl/color-definitions";
+
+$color-primary: $palette-indigo-500;
+$color-primary-dark: $palette-indigo-900;
+$color-accent: $palette-light-green-300;
+$color-primary-contrast: $color-dark-contrast;
+$color-accent-contrast: $color-dark-contrast;
+
+@import "../node_modules/angular2-mdl/src/scss-mdl/material-design-lite";
